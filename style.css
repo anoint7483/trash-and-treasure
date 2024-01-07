@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.header {
+    margin-bottom: 10px;
+    display: flex;
+    height: 12vh;
+    background: rgb(156, 156, 154);
+    padding: 10px 0px 12px 10px;
+}
+
+.header .mainHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.main {
+    display: flex;
+    height: 88vh;
+    margin: 0px 0px 0px 5px;
+}
+
+.left {
+    width: 73%;
+    background-color: aliceblue;
+}
+
+.header .heading {
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    padding: 6px 12px 6px 12px;
+    background-color: rgb(189, 176, 176);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.header .logo {
+    border-radius: 14px;
+    height: 12vh;
+    width: 6vw;
+    background-color: aquamarine;
+}
+.navbar{
+    background-color: aqua;
+    width: 40vw;
+    height: 10vh;
+}
+.navbar ul{
+    display: flex;
+}
+.right {
+
+    background: rgb(127, 125, 129);
+    width: 27%;
+    /* border-radius: 10px; */
+    padding-top: 20px;
+    position: sticky;
+    box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    gap: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.task .head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.head .taskbar {
+    display: flex;
+    gap: 10px;
+}
+
+/* .task .fa-bars{
+    color: white;
+} */
+.task h3 {
+    color: white;
+}
+
+#openTask {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.task .details {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.details>div {
+    border-bottom: 1px solid #00000054;
+    padding: 10px 0;
+}
+
+.task .btn {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.button {
+    background-color: dodgerblue;
+    color: white;
+    width: 30%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 14px;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
