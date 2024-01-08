@@ -13,6 +13,12 @@ body {
     overflow: hidden;
 }
 
+.img_logo img {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
 .header {
     /* margin-bottom: 10px; */
     display: flex;
@@ -25,6 +31,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(0, 247, 255);
 }
 
 .mainHome {
@@ -52,6 +59,7 @@ body {
 }
 
 .header .heading {
+    width: 25vw;
     justify-content: center;
     align-items: center;
     border-radius: 22px;
@@ -59,26 +67,19 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
-.header .logo {
-    border-radius: 14px;
-    height: 50px;
-    margin: 15px 5px 5px 5px;
-    width: 50px;
-    background-color: aquamarine;
-}
-
 .navbar {
+    padding-right: 15vw;
     cursor: pointer;
     display: flex;
     /* background-color: aqua; */
-    width: 40vw;
+    width: 45vw;
     height: 10vh;
     justify-content: center;
     align-items: center;
 }
 
 .navbar li a:hover {
-    color: red;
+    color: aqua;
 
 }
 
@@ -89,18 +90,18 @@ body {
 }
 
 .navbar ul li a {
-    color: blue;
+    color: black;
     text-decoration: none;
     font-size: 22px;
     font-family: 'Source Code Pro', monospace;
 }
 
 .logout {
-    margin-left: 10%;
+    width: 29vw;
+    padding-left: 7vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15%;
 }
 
 .logout a:hover {
@@ -109,7 +110,7 @@ body {
 
 .logout .text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
     text-decoration: none;
 }
