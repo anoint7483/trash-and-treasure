@@ -39,6 +39,13 @@ body {
     height: 88vh;
 }
 
+.map iframe {
+    width: 1121px;
+    height: 647px;
+    border: 0;
+
+}
+
 .left {
     width: 73%;
     background-color: aliceblue;
